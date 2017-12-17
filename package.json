@@ -1,0 +1,27 @@
+{
+  "name": "wbutils",
+  "version": "1.0.0",
+  "description": "前端工具函数",
+  "main": "index.js",
+  "scripts": {
+    "build": "node script/build.js",
+    "test": "mocha test"
+  },
+  "keywords": [
+    "utils",
+    "tools"
+  ],
+  "author": "weibo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "copy": "^0.3.1",
+    "ora": "^1.3.0",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {}
+}
