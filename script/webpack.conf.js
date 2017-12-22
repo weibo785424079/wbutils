@@ -6,7 +6,10 @@ const pkg = require('../package.json')
 const rootPath = path.resolve(__dirname, '../')
 
 const config = {
-    entry: path.resolve(rootPath, 'src', 'index.js'),
+    // entry: path.resolve(rootPath, 'src', 'index.js'),
+    entry: {
+        main: path.resolve(rootPath, 'src', 'index.js')
+    },
     output: {
         filename: `${pkg.name}.min.js`,
         path: path.resolve(rootPath, 'min'),

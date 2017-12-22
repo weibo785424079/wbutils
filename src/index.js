@@ -3,7 +3,8 @@
  */
 
 const DateUtils = require('./Date/index')
-
+const numberToCurrency = require('./NumberToCurrency/index')
 module.exports = {
-    DateUtils
+    DateUtils,
+    numberToCurrency
 }

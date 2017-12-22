@@ -1,6 +1,6 @@
 {
   "name": "wbutils",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "前端工具函数",
   "main": "index.js",
   "scripts": {

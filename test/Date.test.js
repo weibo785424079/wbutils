@@ -12,7 +12,8 @@ describe('毫秒数转时间', function () {
     })
 })
 describe('秒数转时间', function () {
+    var today = new Date
     it('应该等于今天', function() {
-        expect(DateUtil.secondsToTime(Date.now())).to.be.equal('2017-12-18')
+        expect(DateUtil.secondsToTime(Date.now())).to.be.equal(`${today.getFullYear()}-${today.getMonth()+1}-${today.getDate()}`)
     })
 })
