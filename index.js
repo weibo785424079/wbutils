@@ -1,3 +1,3 @@
-const wbutils = require('./src')
+var wbutils = require('./output')
 
 module.exports = wbutils

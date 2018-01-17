@@ -1,4 +1,4 @@
-const nToCurrency = require('../numberToCurrency')
+const nToCurrency = require('../src/numberToCurrency')
 
 var expect = require('chai').expect
 
